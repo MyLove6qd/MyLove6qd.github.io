@@ -12,6 +12,7 @@ description: 首先我想谈谈我对编程的理解 在我读大学之前,对�
 
 # 设计模式(引子) 我为什么学习设计模式
 
+
 ### 我对编程的理解
 
 happy Birthday!   happy Birthday!  🎂 继续努力 继续努力 嘻嘻☺️ 
