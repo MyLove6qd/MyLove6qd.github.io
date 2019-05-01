@@ -2,9 +2,9 @@
 layout: post
 title: head first总结的OO设计准则
 tags:
-- Design Patterns
+- Design_Principles
 categories:
-- Design Principles
+- Design_Patterns
 description: head first总结的OO设计准则
 ---
 
