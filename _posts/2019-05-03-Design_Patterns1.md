@@ -6,6 +6,7 @@ tags:
 categories:
 - Design_Patterns
 description: 我一直认为编程思想源于生活,很多一起学习的同学,总是有疑惑,我学的这些东西到底有什么用? 如果能举个例子,引入一定场景和故事.他们或许就很快明白了! 我很喜欢刘欣的<<码农翻身>>  用故事给技术加点料! 他是我学习的榜样 问题故事化!!!
+
 ---
 
 
@@ -57,7 +58,7 @@ description: 我一直认为编程思想源于生活,很多一起学习的同学
 于是我们按照顾客的要求添加了很多新的口味火锅,有牛肉火锅,羊肉火锅,菌菇火锅,.........当然还有竹鼠火锅
 于是现在的火锅店成了这样:         方形为类
 
-```mermaid
+``` mermaid
 graph RL;
 shop[MyStore<br/>1.优秀的管理方法];
 	id[BeefHuoguo]-->shop;
@@ -74,7 +75,7 @@ shop[MyStore<br/>1.优秀的管理方法];
 
 圆形为抽象类
 
-```mermaid
+``` mermaid
 graph RL;
 	abstract((Huoguo<br/>1.加油方法<br/>2.加调料方法<br/>3.加热方法))-->shop[MyStore<br/>1.优秀的管理方法];
 	id[BeefHuoguo]-.->abstract;
@@ -92,7 +93,7 @@ graph RL;
 
 实现如下:
 
-```java
+``` java
 public class HuoguoFactory{
   public Huoguo createHuoguo(String name){	//拿到火锅的方法
     Huoguo huoguo = null;
@@ -111,7 +112,7 @@ public class HuoguoFactory{
 
 现在的工作流程是这样了: 虚线为继承/实现关系
 
-```mermaid
+``` mermaid
 graph RL;
 	HuoguoFactory[HuoguoFactory<br/>内部维护一个方法用来向使用者返回Huoguo]-->shop[MyStore<br/>内部有一个HuoguoFactory的引用<br/>1.优秀的管理方法];
 	abstract((Huoguo<br/>1.加油方法<br/>2.加调料方法<br/>3.加热方法))-->HuoguoFactory
