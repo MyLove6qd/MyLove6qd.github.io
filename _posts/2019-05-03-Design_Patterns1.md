@@ -59,11 +59,11 @@ description: 我一直认为编程思想源于生活,很多一起学习的同学
 于是现在的火锅店成了这样:         方形为类
 
 <div class="mermaid">
-graph RL;
-shop[MyStore<br/>1.优秀的管理方法];
-	id[BeefHuoguo]-->shop;
-	id2[LambHuoguo]-->shop;
-	id3[BambooRatHuoguo]-->shop;
+graph RL
+shop[MyStore<br/>1.优秀的管理方法]
+	id[BeefHuoguo]-->shop
+	id2[LambHuoguo]-->shop
+	id3[BambooRatHuoguo]-->shop
 	id4[.....]-->shop;
 </div>
 
