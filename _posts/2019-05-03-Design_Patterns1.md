@@ -58,14 +58,14 @@ description: 我一直认为编程思想源于生活,很多一起学习的同学
 于是我们按照顾客的要求添加了很多新的口味火锅,有牛肉火锅,羊肉火锅,菌菇火锅,.........当然还有竹鼠火锅
 于是现在的火锅店成了这样:         方形为类
 
-``` mermaid
+<div class="mermaid">
 graph RL;
 shop[MyStore<br/>1.优秀的管理方法];
 	id[BeefHuoguo]-->shop;
 	id2[LambHuoguo]-->shop;
 	id3[BambooRatHuoguo]-->shop;
 	id4[.....]-->shop;
-```
+</div>
 
 当然我是一个熟悉OO思想的人----找出应用中可能需要变化之处,把他们独立出来,不要和那些不需要变化的代码混在一起
 
