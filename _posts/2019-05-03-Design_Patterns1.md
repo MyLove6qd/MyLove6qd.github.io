@@ -75,15 +75,14 @@ shop[MyStore<br/>1.优秀的管理方法]
 
 圆形为抽象类
 
-``` mermaid
+<div class="mermaid">
 graph RL;
 	abstract((Huoguo<br/>1.加油方法<br/>2.加调料方法<br/>3.加热方法))-->shop[MyStore<br/>1.优秀的管理方法];
 	id[BeefHuoguo]-.->abstract;
 	id1[LambHuoguo]-.->abstract;
 	id3[BambooRatHuoguo]-.->abstract;
 	id4[.....]-.->abstract;
-
-```
+</div>
 
 于是我们有了一层抽象类-----火锅 这些都是汤底的种类,子类有自己的实现 而重复的方法从父类继承
 
@@ -112,7 +111,7 @@ public class HuoguoFactory{
 
 现在的工作流程是这样了: 虚线为继承/实现关系
 
-``` mermaid
+<div class="mermaid">
 graph RL;
 	HuoguoFactory[HuoguoFactory<br/>内部维护一个方法用来向使用者返回Huoguo]-->shop[MyStore<br/>内部有一个HuoguoFactory的引用<br/>1.优秀的管理方法];
 	abstract((Huoguo<br/>1.加油方法<br/>2.加调料方法<br/>3.加热方法))-->HuoguoFactory
@@ -120,7 +119,7 @@ graph RL;
 	id1[LambHuoguo]-.->abstract;
 	id3[BambooRatHuoguo]-.->abstract;
 	id4[.....]-.->abstract;
-```
+</div>
 
 ## 6. 简单工厂模式
 
