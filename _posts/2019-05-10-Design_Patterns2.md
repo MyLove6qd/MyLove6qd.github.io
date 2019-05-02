@@ -2,7 +2,7 @@
 layout: post
 title: 设计模式(二) 工厂方法模式
 tags:
-- factory method mode
+- Design_Patterns
 categories:
 - Design_Patterns
 description: 使用了简单工厂方法的火锅店运行稳定 但是也是存在问题的 因为客人越来越挑剔 需要更多的口味 每次在火锅工厂机器上新添加一个种类的火锅 我都需要请到小王 让他来拆开机器 添加新的材料 如 刀头 什么的 因为切竹鼠用的刀和切螃蟹的刀是不一样的 然后还得编程序 总之很麻烦 而且每次弄完之后 我还得请小王吃个饭喝个酒什么的.....
@@ -137,7 +137,7 @@ shop[MyStore<br/>1.优秀的管理方法];
 	id[JiangxiStore<br/>HuoGuo<br/>1.纯辣的操作方法]-->shop;
 	id2[HuNanStore<br/>HuoGuo<br/>1.麻辣的操作方法]-->shop;
 	id3[GuangDongStore<br/>HuoGuo<br/>1.清汤的操作方法]-->shop;
-	
+
 	abstract((Huoguo<br/>1.加油方法<br/>2.加调料方法<br/>3.加热方法))
 idq[BeefHuoguo]-.继承.-abstract;
 idq1[LambHuoguo]-.继承.-abstract;

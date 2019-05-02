@@ -2,7 +2,7 @@
 layout: post
 title: 设计模式(三) 抽象工厂模式
 tags:
-- Abstract Factory Pattern
+- Design_Patterns
 categories:
 - Design_Patterns
 description: 我运用了工厂方法模式 建设了我的火锅帝国 但是仔细想一想 火锅工厂方法模式还是有点脱离实际 我们从始至终都把火锅当成一个不可分割的整体 但是仔细想想火锅是一个整体吗? 各种配料 各种这些配料的供应商 为了做大做强 我们需要自己的子公司 自己的配料公司 由他们给我提供优质的配料 例如 花椒 辣椒 地沟…不..优质菜油 酱料........

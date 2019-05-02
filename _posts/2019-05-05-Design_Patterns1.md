@@ -2,7 +2,7 @@
 layout: post
 title: 设计模式(一) 简单工厂模式
 tags:
-- Simple factory mode
+- Design_Patterns
 categories:
 - Design_Patterns
 description: 我一直认为编程思想源于生活,很多一起学习的同学,总是有疑惑,我学的这些东西到底有什么用? 如果能举个例子,引入一定场景和故事.他们或许就很快明白了! 我很喜欢刘欣的<<码农翻身>>  用故事给技术加点料! 他是我学习的榜样 问题故事化!!!
